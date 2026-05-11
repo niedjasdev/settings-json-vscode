@@ -1,0 +1,64 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "2077",
+
+  "breadcrumbs.enabled": false,
+
+  "chat.commandCenter.enabled": false,
+  "chat.agent.enabled": false,
+
+  "files.defaultLanguage": "pt-BR",
+  "emmet.variables": {
+    "lang": "pt-BR",
+  },
+
+  
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.8,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "normal",
+
+  "explorer.confirmDelete": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+    "tailwind.config.*": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*",
+  },
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.smoothScrolling": true,
+
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+
+  "workbench.tree.indent": 18,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.statusBar.visible": false,
+  "workbench.navigationControl.enabled": false,
+  "workbench.reduceMotion": "off",
+
+  "workbench.layoutControl.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+
+
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+
+  "symbols.hidesExplorerArrows": false,
+  "chat.checkpoints.enabled": false,
+  "chat.disableAIFeatures": true,
+}
