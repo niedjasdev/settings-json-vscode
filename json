@@ -1,10 +1,7 @@
 {
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "2077",
+ 
 
   "breadcrumbs.enabled": false,
-
-  "chat.commandCenter.enabled": false,
   "chat.agent.enabled": false,
 
   "files.defaultLanguage": "pt-BR",
@@ -50,15 +47,32 @@
   "workbench.layoutControl.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
 
-
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false,
-  },
-
-  "symbols.hidesExplorerArrows": false,
   "chat.checkpoints.enabled": false,
   "chat.disableAIFeatures": true,
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "storage.modifier",
+          "storage.type.class.js",
+          "storage.type.js"
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.conditional",
+          "keyword.operator"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
 }
